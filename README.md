@@ -18,6 +18,6 @@ This project focuses on building and managing a relational database using Python
 
 ```powershell
 git add .
-git commit -m "Update README"
+git commit -m "message to describe recent work"
 git push
 This setup provides a clean starting point for developing Python scripts and managing dependencies for database projects.
