@@ -8,7 +8,7 @@ This project focuses on building and managing a relational database using Python
 - Cloned the repository to VS Code using `git clone`
 - Added a `.gitignore` file to exclude unnecessary files
 - Added a `requirements.txt` file for dependencies
-- Installed and upgraded pip, setuptools, and wheel with:- Installed and upgraded pip, setuptools, and wheel with: `py -m pip install --upgrade pip setuptools wheel`
+- Installed and upgraded pip, setuptools, and wheel with: `py -m pip install --upgrade pip    setuptools wheel`
 - Installed project dependencies with: `py -m pip install -r requirements.txt`
 - Created a `README.md` file for documentation
 - Set up a virtual environment with `py -m venv .venv`
