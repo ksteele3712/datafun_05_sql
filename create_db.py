@@ -3,7 +3,7 @@ import pandas as pd
 import pathlib
 
 # Define the database file in the current root project directory
-db_file = pathlib.Path("project.sqlite3")
+db_file = pathlib.Path("project.db")
 
 def create_database():
     """Function to create a database. Connecting for the first time
