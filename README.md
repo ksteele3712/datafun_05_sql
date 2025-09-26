@@ -38,8 +38,9 @@ This project demonstrates all major skills for working with databases, tables, a
 
 ## Screenshots
 
-![Screenshot 1](images/authors.png)
-![Screenshot 2](images/books.png)
+
+![Authors Table Screenshot](images/authors.png)
+![Books Table Screenshot](images/books.png)
 
 ### 3. Record Operations
 - Inserted records with SQL `INSERT INTO` and Python pandas.
