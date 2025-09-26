@@ -33,7 +33,12 @@ git commit -m "message to describe recent work"
  - Defined two related tables: `authors` and `books`.
  - Automated table creation using SQL scripts (`01_drop_tables.sql`, `02_create_tables.sql`).
  - Populated tables with sample data using `03_insert_records.sql` and CSV import scripts.
- ![Authors Table Diagram](authors_table_diagram.png)
+ ## Screenshots
+
+![Screenshot 1](images/authors.png)
+![Screenshot 2](images/books.png)
+
+ 
  
  ### 3. Record Operations
  - Inserted records with SQL `INSERT INTO` and Python pandas.
