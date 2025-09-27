@@ -2,7 +2,7 @@
 # datafun_05_sql
 This project focuses on building and managing a relational database using Python and SQL, with SQLite as the database management system. The project will utilize Python to create, manage, and interact with the database and its tables, leveraging SQL for querying and manipulating relational data.
 
-## Project Structure
+## 🗂️ Project Structure
 
 Below is an overview of the files and folders in this project. This structure helps organize SQL scripts, data files, images, and Python code for easy navigation and maintenance.
 
@@ -47,7 +47,7 @@ datafun_05_sql/
 ```
 
 
-## Setup Steps
+## ⚙️ Setup Steps
 
 This setup provides a clean starting point for developing Python scripts and managing dependencies for database projects.
 
@@ -73,11 +73,11 @@ git push
 
 ---
 
-## Project 5 Lesson Summary & Steps
+## 📚 Project 5 Lesson Summary & Steps
 
 This project demonstrates all major skills for working with databases, tables, and records in Python and SQL (SQLite). Below are the itemized steps completed:
 
-### 2. Database & Table Setup
+### 🗄️ Database & Table Setup
 - Created a new SQLite database using Python (`create_db.py`).
 - Defined two related tables: `authors` and `books`.
 - Automated table creation using SQL scripts (`01_drop_tables.sql`, `02_create_tables.sql`).
@@ -93,7 +93,7 @@ This project demonstrates all major skills for working with databases, tables, a
 ![Books Table Screenshot](images/books.png)
 
 
-### 3. Record Operations
+### 📋 Record Operations
 - Inserted records with SQL `INSERT INTO` and Python pandas.
 - Read records using SQL `SELECT` statements.
 - Filtered records with `WHERE`, including `AND`, `OR`, and `DISTINCT` examples.
@@ -114,7 +114,7 @@ This project demonstrates all major skills for working with databases, tables, a
 
 
 
-### 4. Query Examples
+### 🔍 Query Examples
 
 - Created example SQL query files for each major concept:
 	- `query_aggregation.sql`: Aggregation (COUNT books per author)
@@ -150,7 +150,7 @@ This project demonstrates all major skills for working with databases, tables, a
 
  
 
-### 5. Python Integration
+### 🐍 Python Integration
 - Used Python scripts to automate running SQL files and importing data.
 - Verified database contents and table relationships with Python queries.
 - Refactored code for clarity and maintainability.
@@ -169,7 +169,7 @@ This project demonstrates all major skills for working with databases, tables, a
 ![Python Queries](images/python_db03.png)
 
  
- ### 6. Documentation & Best Practices
+### 📝 Documentation & Best Practices
  - Documented all steps and code in this README for clarity.
  - Followed project specification and textbook guidance.
  - Practiced using online SQL editors and AI assistance for expressive queries.
