@@ -37,10 +37,12 @@ This project demonstrates all major skills for working with databases, tables, a
 - Populated tables with sample data using `03_insert_records.sql` and CSV import scripts.
 
 *This shows the creation of the Author Table and it's corresponding data inputted*
+
 ![Authors Table Screenshot](images/authors.png)
 
 
 *This shows the creation of the Books Table and it's corresponding data inputted*
+
 ![Books Table Screenshot](images/books.png)
 
 
@@ -73,7 +75,7 @@ This project demonstrates all major skills for working with databases, tables, a
 	- `query_group_by.sql`: Grouping (books by year)
 	- `query_join.sql`: Joining (books with author names)
 	- `query_sorting.sql`: Sorting (authors by last name)
-	- 
+  
 
 *Aggregation Query-Table meaning: Each author only authored 1 book*
 
