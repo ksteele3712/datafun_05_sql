@@ -2,6 +2,50 @@
 # datafun_05_sql
 This project focuses on building and managing a relational database using Python and SQL, with SQLite as the database management system. The project will utilize Python to create, manage, and interact with the database and its tables, leveraging SQL for querying and manipulating relational data.
 
+## Project Structure
+
+Below is an overview of the files and folders in this project. This structure helps organize SQL scripts, data files, images, and Python code for easy navigation and maintenance.
+
+
+datafun_05_sql/
+│
+├── data/
+│   ├── authors.csv
+│   ├── books.csv
+│   ├── nutrition_values.csv
+│   └── produce.csv
+│
+├── images/
+│   ├── aggregation.png
+│   ├── python_db01.png
+│   ├── python_db02.png
+│   └── python_db03.png
+│
+├── sql_create/
+│   ├── 01_drop_tables.sql
+│   ├── 02_create_tables.sql
+│   └── 03_insert_records.sql
+│
+├── sql_features/
+│   ├── delete_records.sql
+│   └── update_records.sql
+│
+├── sql_queries/
+│   ├── query_aggregation.sql
+│   ├── query_filter.sql
+│   ├── query_group_by.sql
+│   ├── query_join.sql
+│   └── query_sorting.sql
+│
+├── db01_setup.py
+├── db02_features.py
+├── db03_queries.py
+├── README.md
+├── requirements.txt
+├── project.db
+└── project.sqlite3
+
+
 ## Setup Steps
 
 ## Common Git Commands
