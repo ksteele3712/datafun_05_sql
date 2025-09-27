@@ -6,7 +6,7 @@ This project focuses on building and managing a relational database using Python
 
 Below is an overview of the files and folders in this project. This structure helps organize SQL scripts, data files, images, and Python code for easy navigation and maintenance.
 
-
+```
 datafun_05_sql/
 │
 ├── data/
@@ -44,6 +44,7 @@ datafun_05_sql/
 ├── requirements.txt
 ├── project.db
 └── project.sqlite3
+```
 
 
 ## Setup Steps
