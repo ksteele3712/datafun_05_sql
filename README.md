@@ -36,11 +36,11 @@ This project demonstrates all major skills for working with databases, tables, a
 - Automated table creation using SQL scripts (`01_drop_tables.sql`, `02_create_tables.sql`).
 - Populated tables with sample data using `03_insert_records.sql` and CSV import scripts.
 
-## Screenshots
-
-
 ![Authors Table Screenshot](images/authors.png)
+*This shows the creation of the Author Table and it's corresponding data inputted
+
 ![Books Table Screenshot](images/books.png)
+*This shows the creation of the Books Table and it's corresponding data inputted
 
 ### 3. Record Operations
 - Inserted records with SQL `INSERT INTO` and Python pandas.
@@ -51,14 +51,44 @@ This project demonstrates all major skills for working with databases, tables, a
 - Updated records with SQL `UPDATE` statements.
 - Deleted records with SQL `DELETE FROM` statements.
 - Performed aggregation queries: `COUNT`, `AVG`, `SUM`, and `GROUP BY`.
+  
+*Delete sql command
+![Delete Records Screenshot](images/delete_records.png)
+*This shows our Authors Table missing 3 books: '1984', 'Pride and Prejudice', 'Fahrenheit 451'
+
+*Insert sql command
+![Insert Records Screenshot](images/insert_record.png)
+*This shows our Authors Table inserting the wrong last name 'Rolling' for 'Rowling'
+
 
 ### 4. Query Examples
+
 - Created example SQL query files for each major concept:
-  - `query_aggregation.sql`: Aggregation (COUNT books per author)
-  - `query_filter.sql`: Filtering (books published after 1950)
-  - `query_group_by.sql`: Grouping (books by year)
-  - `query_join.sql`: Joining (books with author names)
-  - `query_sorting.sql`: Sorting (authors by last name)
+	- `query_aggregation.sql`: Aggregation (COUNT books per author)
+	- `query_filter.sql`: Filtering (books published after 1950)
+	- `query_group_by.sql`: Grouping (books by year)
+	- `query_join.sql`: Joining (books with author names)
+	- `query_sorting.sql`: Sorting (authors by last name)
+
+*Aggregation Query
+![Aggregation Table Screenshot](images/aggregation.png)
+*Table meaning: Each author only authored 1 book*
+
+*Filter Query
+![Books Published After 1950](images/years_more_than_1950.png)
+*Table result: 3 books were published after 1950: To Kill a Mockingbird, Catcher in the Rye, and Fahrenheit 451*
+
+*Group Query
+![Books Grouped by Year](images/group_query.png)
+*Table result: For each of these years, only 1 book was published*
+
+*Join Query
+![Books with Authors Names](images/books_with_authors_names.png)
+*Table result: Name of books with authors first and last names*
+
+*Sorting Query
+![Authors Ordered Alphabetically by Last Name](images/alphabetical_order_by_last_name.png)
+*Table result: Authors ordered alphabetically by last name.*
  
  ### 5. Python Integration
  - Used Python scripts to automate running SQL files and importing data.
