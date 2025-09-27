@@ -49,13 +49,6 @@ datafun_05_sql/
 
 ## Setup Steps
 
-## Common Git Commands
-
-```powershell
-git add .
-git commit -m "message to describe recent work"
-```
-
 This setup provides a clean starting point for developing Python scripts and managing dependencies for database projects.
 
 ### 1. Setup Steps (Precursor)
@@ -68,6 +61,15 @@ This setup provides a clean starting point for developing Python scripts and man
 - Created a `README.md` file for documentation
 - Set up a virtual environment with `py -m venv .venv`
 - Activated the virtual environment with `.\.venv\Scripts\activate`
+- Use the Git commands
+  
+  ## Common Git Commands
+
+```powershell
+git add .
+git commit -m "message to describe recent work"
+git push
+```
 
 ---
 
@@ -166,22 +168,15 @@ This project demonstrates all major skills for working with databases, tables, a
 
 ![Python Queries](images/python_db03.png)
 
-
-
  
- ### 6. Version Control
- - Committed and pushed all changes to GitHub using standard git commands:
-	 ```powershell
-	 git add .
-	 git commit -m "Update SQL query examples and restore drop tables"
-	 git push
-	 ```
- 
- ### 7. Documentation & Best Practices
+ ### 6. Documentation & Best Practices
  - Documented all steps and code in this README for clarity.
- - Followed project specification and textbook guidance (see Project 5 spec and Chapter 17.2 SQL).
+ - Followed project specification and textbook guidance.
  - Practiced using online SQL editors and AI assistance for expressive queries.
+
+
+This datafun_05_sql project demonstrates the fundamentals of relational database design, management, and integration using Python and SQL (SQLite). The project covers schema creation, table setup, record operations, and advanced querying techniques. Through organized scripts and clear documentation, it showcases how to automate database tasks, maintain data integrity, and visualize results. The structure and examples provided make it easy to understand, extend, and apply these concepts to future data projects.
  
  ---
  
- This README summarizes all major steps and skills demonstrated in the lesson, providing clear examples and documentation. It is a great example of working with basic SQL commands, implementing them and seeing what they do.
+ 
