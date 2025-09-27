@@ -102,10 +102,27 @@ This project demonstrates all major skills for working with databases, tables, a
 ![Authors Ordered Alphabetically by Last Name](images/alphabetical_order_by_last_name.png)
 
  
- ### 5. Python Integration
- - Used Python scripts to automate running SQL files and importing data.
- - Verified database contents and table relationships with Python queries.
- - Refactored code for clarity and maintainability.
+
+### 5. Python Integration
+- Used Python scripts to automate running SQL files and importing data.
+- Verified database contents and table relationships with Python queries.
+- Refactored code for clarity and maintainability.
+
+
+*Python setup*
+
+![Python Setup](images/python_db01.png)
+
+*Python features*
+
+![Python Features](images/python_db02.png)
+
+*Python queries*
+
+![Python Queries](images/python_db03.png)
+
+
+
  
  ### 6. Version Control
  - Committed and pushed all changes to GitHub using standard git commands:
@@ -122,5 +139,4 @@ This project demonstrates all major skills for working with databases, tables, a
  
  ---
  
- This README summarizes all major steps and skills demonstrated in the lesson, providing clear examples and documentation for your instructor.
-This setup provides a clean starting point for developing Python scripts and managing dependencies for database projects.
+ This README summarizes all major steps and skills demonstrated in the lesson, providing clear examples and documentation. It is a great example of working with basic SQL commands, implementing them and seeing what they do.
